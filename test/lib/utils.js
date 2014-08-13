@@ -22,8 +22,6 @@ describe('Utils', function(){
 		file.newPath = "index";
 	});
 
-	//utils.getFolderName(file.base, file.newDirname),
-
 	describe('fixDirName', function(){
 
 		it('Debe poder normalizar las rutas de las carpetas.', function(){
@@ -38,7 +36,6 @@ describe('Utils', function(){
 			utils.getFolderName(file.path.p1, file.path.p2).should.be.equal(file.newPath);
 		});
 	});
-
 
 });
 
