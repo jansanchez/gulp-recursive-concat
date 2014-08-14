@@ -1,3 +1,6 @@
+/*
+* Test: recursiveConcat
+*/
 
 var recursiveConcat = require('../../lib/gulp-recursive-concat');
 
