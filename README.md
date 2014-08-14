@@ -19,8 +19,7 @@ npm install --save-dev gulp-recursive-concat
 
 #### How to use:
 
-´´´javascript
-	
+```javascript
 	var recursiveConcat = require('gulp-recursive-concat');
 
 	gulp.task('concatenation', function(){
@@ -28,7 +27,7 @@ npm install --save-dev gulp-recursive-concat
 		.pipe(recursiveConcat({dist: 'dist/', extname: ".js"}))
 		.pipe(gulp.dest('dist/'));
 });
-´´´
+```
 
 [npm-url]: https://www.npmjs.org/package/gulp-recursive-concat
 [npm-image]: http://img.shields.io/npm/v/gulp-recursive-concat.svg
