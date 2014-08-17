@@ -1,7 +1,7 @@
 {
   "name": "gulp-recursive-concat",
   "version": "0.0.3",
-  "description": "A Gulp recursive concatenation",
+  "description": "A gulp plugin for recursive concatenation",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -12,10 +12,10 @@
   },
   "keywords": [
     "gulpfriendly",
+    "gulpplugin",
     "concat",
-    "resursive",
-    "concatenation",
-    "gulpplugin"
+    "recursive",
+    "concatenation"
   ],
   "author": "Jan Sanchez",
   "license": "MIT",

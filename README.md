@@ -1,12 +1,7 @@
-gulp-recursive-concat
-==================
-
-Gulp Concatenation
-
 
 # Gulp Recursive Concatenation [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-> Gulp Plugin for Recursive Concatenation
+> A gulp plugin for Recursive Concatenation
 
 
 ## Getting Started
