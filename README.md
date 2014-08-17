@@ -11,7 +11,7 @@ Gulp Concatenation
 
 ## Getting Started
 
-#### Install globally:
+#### Install:
 
 ```
 npm install --save-dev gulp-recursive-concat
