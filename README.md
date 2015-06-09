@@ -19,7 +19,7 @@ npm install --save-dev gulp-recursive-concat
 
 	gulp.task('concatenation', function(){
 		return gulp.src('source/**/*.js')
-		.pipe(recursiveConcat({dist: 'dist/', extname: ".js"}))
+		.pipe(recursiveConcat({extname: ".js"}))
 		.pipe(gulp.dest('dist/'));
 });
 ```
