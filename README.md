@@ -24,7 +24,7 @@ npm install --save-dev gulp-recursive-concat
 });
 ```
 
-from 
+**from**
 ```
 ├── source
 |   └── modules
@@ -32,7 +32,7 @@ from
 |   |   └── 2.js
 ```
 
-to
+**to**
 ```
 ├── dist
 |   └── modules
@@ -44,7 +44,7 @@ to
 
 ```javascript
 	var recursiveConcat = require('gulp-recursive-concat');
-
+	
 	gulp.task('concatenation', function(){
 		return gulp.src('source/**/*.js')
 		.pipe(recursiveConcat({extname: ".js", outside: true}))
@@ -52,7 +52,7 @@ to
 });
 ```
 
-from 
+**from**
 ```
 ├── source
 |   └── modules
@@ -60,7 +60,7 @@ from
 |   |   └── 2.js
 ```
 
-to
+**to**
 ```
 ├── dist
 |   └── modules.js
