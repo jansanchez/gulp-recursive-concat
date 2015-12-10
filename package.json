@@ -1,6 +1,6 @@
 {
   "name": "gulp-recursive-concat",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "A gulp plugin for recursive concatenation",
   "main": "index.js",
   "scripts": {
