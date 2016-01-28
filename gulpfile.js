@@ -48,7 +48,17 @@ gulp.task('concat', ['clean', 'concatenation'], function() {
 });
 
 gulp.task('concatenation', function(){
+	var concatOptions = {
+		extname : ".js",
+		outside : true,
+		ignore  : [
+			'/',
+			'/modules'
+		],
+		debug   : true
+	}
+
 	return gulp.src('./demo/source/**/*.js')
-			.pipe(recursiveConcat({extname: ".js", debug: true}))
+			.pipe(recursiveConcat(concatOptions))
 			.pipe(gulp.dest('demo/dist/'));
 });
